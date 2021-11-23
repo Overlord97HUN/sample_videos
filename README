@@ -1,3 +1,4 @@
-In this repository I will upload the sample videos captured with the duckiebot.
-These videos will be used to test the lane finding algorythms.
--Overlord
+To use the sample_creator.py, you have to first create a video of the checkerboard.
+The video format in this case have to be .avi and saved as checkerboard.avi in /sample_videos folder.
+Then you can can change the number of samples by increasing or decreasing the sampe time inside the code.
+The results will be saved in a directory called "sample_images_checkerboard" in .jpg format. 
